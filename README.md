@@ -8,7 +8,7 @@ Este projeto consiste em um portal informativo dedicado ao Palmeiras, dentro do 
 
 ## Sobre o Projeto
 
-O objetivo deste site é melhorar minhas habilidades em html e css. Ele foi desenvolvido utilizando o Palmeiras como tema para aplicar conceitos avançados de estruturação e design.
+O objetivo deste site é melhorar minhas habilidades em HTML5 e CSS3. Ele foi desenvolvido utilizando o Palmeiras como tema para aplicar conceitos avançados de estruturação e design.
 
 ## Tecnologias
 
