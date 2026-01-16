@@ -1,6 +1,6 @@
 # Meu Primeiro Website
 
-Este projeto consiste em um portal informativo dedicado ao Palmeiras, dentro do site o usuário conhecerá a história e o presente do clube. Através de uma interface organizada com uma barra de navegação (navbar) fixa, o usuário pode explorar a página inicial com uma apresentação sobre o clube, mergulhar em uma página de blog que apresenta os ídolos, títulos e história, além de acessar uma seção de contato. Vale ressaltar que o projeto é focado exclusivamente no front-end, ou seja, o formulário de contato é apenas ilustrativo para demonstração de interface.
+Este projeto consiste em um portal informativo dedicado ao Palmeiras, dentro do site o usuário conhecerá a história e o presente do clube. Através de uma interface organizada com uma navbar, o usuário pode explorar a página inicial com uma apresentação sobre o clube, mergulhar em uma página de blog que apresenta os ídolos, títulos e história, além de acessar uma seção de contato. Vale ressaltar que o projeto é focado exclusivamente no front-end, ou seja, o formulário de contato é apenas ilustrativo para demonstração de interface.
 
 <p align="left">
   <img src="images/preview-meu-primeiro-website.png" alt="Preview do Site Minha Estante Virtual" width="600">
