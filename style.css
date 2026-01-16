@@ -1,0 +1,321 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+main {
+    min-height: 519px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.navbar ul li a {
+    color: #000000;       
+    font-size: 20px;
+}
+
+.navbar a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.navbar a:hover {
+    transform: scale(1.1); 
+}
+
+/*
+========
+Header
+========
+*/
+
+header {
+    background-color: #00532e;
+    border-bottom: 4px solid #9b8542;
+    padding: 13px 70px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-site {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.escudo-palmeiras {
+    height: 50px;
+}
+
+.header-container span {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.patrocinadores {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo-sportingbet {
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.logo-sportingbet:hover {
+    transform: scale(1.1);
+} 
+
+.logo-puma {
+    height: 30px;
+    filter: invert(1);
+    transition: transform 0.3s ease;
+}
+
+.logo-puma:hover {
+    transform: scale(1.1);
+} 
+
+/*
+========
+Footer
+========
+*/
+
+footer {
+    background-color: #00532e;
+    border-top: 4px solid #9b8542;
+    padding: 10px 30px;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 15px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*
+========
+Index
+========
+*/
+
+.article-index {
+    background-color: #ebe8e8;
+    border: 2px solid #00532e;
+    border-radius: 12px;
+    padding: 50px; 
+    margin: 40px auto; 
+    max-width: 1100px; 
+    width: 90%;      
+}
+
+.conteudo-index {
+    display: flex;          
+    align-items: center;     
+    justify-content: center;
+    gap: 40px;                      
+}
+
+.imagem-palmeiras-index {
+    border-radius: 20px;    
+    max-width: 400px;        
+    width: 100%;             
+    height: auto;            
+    display: block;         
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border: 2px solid #00532e;
+}
+
+.conteudo-index h1 {
+    color: #00532e;
+}
+
+.conteudo-index p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.texto-index {
+    flex: 1;                
+}
+
+/*
+=======
+Blog
+=======
+*/
+
+.container-blog {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; 
+}
+
+.container-blog h1 {
+    text-align: center;
+    color: #00532e;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.card-artigo {
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+    background-color: #ebe8e8;
+    border: 2px solid #00532e;
+    border-radius: 15px;
+    padding: 30px;
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-artigo.reverso {
+    flex-direction: row-reverse;
+}
+
+.card-artigo img {
+    width: 350px; 
+    height: 250px;
+    object-fit: cover; 
+    border-radius: 10px;
+    border: 2px solid #00532e;
+    display: block;
+}
+
+.card-artigo div {
+    flex: 1;
+}
+
+.card-artigo h3 {
+    color: #00532e;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.card-artigo p {
+    line-height: 1.6;
+    text-align: justify;
+    color: #000000;
+}
+
+/*
+=========
+Contact
+=========
+*/
+
+.conteudo-container {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ebe8e8;
+    border-radius: 15px;
+    border: 2px solid #00532e;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.conteudo-container h2 {
+    color: #00532e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #00532e;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease; 
+}
+
+input:hover, textarea:hover {
+    border-color: #007a43;
+}
+
+input:focus, textarea:focus {
+    border-color: #00532e;
+    box-shadow: 0 0 8px rgba(0, 83, 46, 0.2);
+    background-color: #fff;
+}
+
+button {
+    background-color: #00532e;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #007a43;
+}
+
+button:active {
+    transform: scale(0.96);
+    background-color: #004024;
+}
+
+textarea {
+    resize: none;
+    min-height: 120px;
+}
