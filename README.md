@@ -24,6 +24,7 @@ https://ricardo2357.github.io/Meu-Primeiro-Website/
 ## Estrutura do Projeto
 
 ```
+Meu-Primeiro-Website/
 ├── images/
 │   ├── Escudo-Palmeiras.png
 │   ├── História-Palmeiras.jpg
